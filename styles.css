@@ -1,0 +1,79 @@
+h1 {
+  color: #7b2817;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  text-decoration: underline;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+h2 {
+  color: #7b2817;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+div {
+  width: 300px;
+  height: 300px;
+  background-color: tomato;
+}
+.box1 {
+  width: 300px;
+  height: 300px;
+  background-color: #918348;
+  margin: 10px 20px;
+  float: left;
+  /*border-style: double solid dotted dashed;
+  border-width: 15px;
+  border-top-style: double;
+  To make all sides with same px , margi:10px or 10 px 20px for all top and bottom */
+  /* to align to next free space use float property
+  span will take height and width of the content*/
+  border: double 15px #ee6707;
+  text-align: center;
+  padding: 10px;
+  overflow: auto;
+}
+
+.box1 img {
+  width: 290px;
+  height: 290px;
+  opacity: 0;
+  /*opacity:0.6*/
+  /*opacity ranging between 0 to 1*/
+}
+
+.box1 img:hover {
+  opacity: 1;
+  /*opacity between 0 to 1*/
+}
+.box1:hover {
+  color: #7b2817;
+  box-sizing: content-box;
+}
+
+#box2 {
+  width: 300px;
+  height: 300px;
+  background-color: #bfbf58;
+  float: right;
+  text-align: center;
+  overflow: auto;
+  /*display: none;
+  to make div to be not displayed in the page for ser intial visit display none and when clicked on some link then to display display:block;*/
+}
+
+a {
+  font-size: 25px;
+  color: #7b2817;
+  text-decoration: none;
+}
+
+/*psuedo class*/
+a:hover {
+  color: #4a94c5;
+  font-weight: bold;
+}

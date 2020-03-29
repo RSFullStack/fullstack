@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <form method="POST" action="firstdoc.html">
+      <!--sending the data to firstdoc.html using POST method and give action to which page you want to send-->
+      <!--for crusial or confidential sending always use POST. GET basically use for retrieve the data and not for sending any data posting. For sending info always use POST.-->
+      <!-- when submitting form, POST methed is used.For fetching GET, for sending data POST-->
+      First Name
+      <input type="text" name="fname" /> <br /><br />
+      Last Name
+      <input type="text" name="lname" /> <br /><br />
+      Email id
+      <input type="email" name="email" /><br /><br />
+      Password
+      <input type="password" name="pass" /> <br />
+      <br />
+      Gender
+      <input type="radio" name="gender" value="male" />Male
+      <input type="radio" name="gender" value="female" />Female
+      <input type="radio" name="gender" value="others" />Others
+      <br />
+
+      Pref Location
+      <input type="checkbox" name="loc" value="loc1" />Location1
+      <input type="checkbox" name="loc" value="loc2" />Location2
+      <input type="checkbox" name="loc" value="loc3" />Location3
+      <input type="checkbox" name="loc" value="loc4" />Location4 <br />
+      <!-- name and value are like key value pairs that being passed to form to grab the data from backend and send to server or database-->
+      <br />
+      <select>
+        <option value="default">Select Country</option>
+        <option value="india">India</option>
+        <option>China</option>
+        <option>France</option>
+        <option>Germany</option>
+      </select>
+      <br />
+      <br />
+      DOB
+      <input type="date" name="dob" value="3/28/2020" />
+
+      Color
+      <input type="color" name="color" />
+      <br />
+      <br />
+
+      <input type="submit" name="submit" value="Submit" />
+      <input type="reset" name="clear" value="Clear" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>HTML table</title>
+  </head>
+  <body>
+    <table
+      width="700"
+      aligh="center"
+      border="5"
+      bgcolor="green"
+      cellpadding="10"
+      cellspacing="10"
+    >
+      <!-- distance between the cell bordering modified by cellpadding. distance between the cell is cellspacing-->
+
+      <thead>
+        <tr>
+          <th colspan="2">Fullname</th>
+          <!--<th>Lastname></th> remove this and use colspan to merge two columns -->
+          <th>company</th>
+          <th>Role</th>
+          <th>group</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>ABC</td>
+          <td>DEF</td>
+          <td>VS</td>
+          <td>Director</td>
+          <td rowspan="2">BC</td>
+          <!--to merge tow rows of same data , it can be merged by using rowspan how many roes to be merged and then delete that row in the next td-->
+        </tr>
+        <tr>
+          <td>nnn</td>
+          <td>mmF</td>
+          <td>Vz</td>
+          <td>Dire</td>
+        </tr>
+        <tr>
+          <td>ABCt</td>
+          <td>DEFg</td>
+          <td>VSz</td>
+          <td>Dir</td>
+          <td>BCw</td>
+        </tr>
+        <tr>
+          <td>ABttC</td>
+          <td>DEyyyF</td>
+          <td>VuuuS</td>
+          <td>Diriiiector</td>
+          <td>BCiiii</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

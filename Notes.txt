@@ -1,0 +1,16 @@
+Interlinking :: linking between dfferent pages ex: link to other external site.
+
+Intralinking: Linking with in the same page ex: wikipedia links
+
+Inline element and block element
+
+Inline element: have a tendency to display in line
+ex: a, img, span
+
+Block element display in blocks
+ex: p, h1, div
+
+https://github.com/bbajpai/Notes/tree/master/Notes
+
+
+
